@@ -1,6 +1,7 @@
+<!-- 產品／專案：Slash1to3｜法人／事業體：斜槓一二三 / Slash123（獨立法人；完整法定名稱 [暫定]／[待確認]）｜日期：2026-11-11（Asia/Taipei）｜草稿 v0.3 -->
 # Slash1to3
-C2-AE-S13 斜槓123 Slash1to3 個人專家數位分身能力授權平台 for 自由工作者、專家、微型任務
-# 斜槓123 (slash1to3.com) - 專家數位分身能力授權與標售平台
+C2-AE-S13 斜槓一二三 Slash123 個人專家數位分身能力授權平台 for 自由工作者、專家、微型任務
+# 斜槓一二三 (slash1to3.com) - 專家數位分身能力授權與標售平台
 
 [![Repository Archetype: Functional App](https://img.shields.io/badge/Archetype-C3--Functional--App-blue.svg)](#)
 [![PMO ID](https://img.shields.io/badge/PMO--ID-C3--AE--S13--F-orange.svg)](#)
@@ -24,7 +25,7 @@ C2-AE-S13 斜槓123 Slash1to3 個人專家數位分身能力授權平台 for 自
 
 ```
                     ┌──────────────────────────────────────────┐
-                    │          斜槓123 平台控制平面             │
+                    │          斜槓一二三 平台控制平面             │
                     │   (專家帳號 / 分身市集 / 授權狀態 / 帳務)   │
                     └───────────────┬──────────────────────────┘
                                     │ (授權驗證 / 狀態同步)
@@ -246,3 +247,15 @@ pnpm test:security:prompt-isolation
 * **QA & 驗收簽核團隊**：`qa-aegis-slash1to3-app@aegis.expert`
 * **Collaborator 協同開發組**：`collab-aegis-slash1to3-app@aegis.expert`
 * **全域資安應變應急 (CSIRT)**：`github-security@wonderland.center`
+
+
+## v0.3 變更註記（2026-11-11，Asia/Taipei）
+
+僅修正本次涉及之品牌顯示名稱、網域文字及與 t12u 直接衝突的法人關係段落；repo／org、技術代碼、URL、路徑、分支及 email local part 均未變更。品牌與網域確認不代表內容核准；本文件為草稿 v0.3，其他來源規格僅供參考，未驗證的功能、效能、時程及合規不得視為核准。
+
+### 人工審核清單
+
+- 完整法定名稱、登記資訊、設立沿革、網域持有人與技術協作／託管契約仍以已確認錨點為限，其他 [待確認] 標註維持。
+- 既有版權權利人與授權條款未由本次品牌修訂推定變更；請確認 README 的版權行及 LICENSE 第 189 行 `Copyright [yyyy] [name of copyright owner]` 範本尚未填寫之權利人與年份。
+- 保留的技術 URL／徽章／代碼若含歷史文字，並非現行品牌或法人歸屬聲明；如需替換 URL 或改名須另行確認。
+- 其餘效能、法遵、交付與產品主張未經核驗，均待人工審核，不因本次修字或 PR 合併視為核准。
